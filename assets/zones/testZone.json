@@ -1,0 +1,747 @@
+{
+    "name": "TestZone",
+    "description": "A simple test zone for... testing",
+    "id": 0,
+    "objects": [
+
+
+
+
+
+
+
+
+        {
+            "name": "pipe2",
+            "transform": {
+                "position": {
+                    "x": 1300,
+                    "y": 0
+                }
+            },
+            "components": [
+               
+            ],
+            "behaviors":[
+                {
+                    "name": "pipe2Scroller",
+                    "type": "scroll",
+                    "velocity": {
+                        "x": -150,
+                        "y": 0
+                    },
+                    "minPosition": {
+                        "x": -200,
+                        "y": 0
+                    },
+                    "resetPosition": {
+                        "x": 1300,
+                        "y": 0
+                    },
+                    "resetMessage": "GAME_RESET",
+                    "stopMessage": "PLAYER_DIED",
+                    "startMessage": "PLAYER_RESET"
+                }
+            ],
+            
+            "children": [
+                {
+                    "name": "pipe2_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 150
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_top",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": -60
+                        },
+                        {
+                            "name": "pipe2Collision_endneg",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": -60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe2_middle_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -210
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_top",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe2Collision_middle_top",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+
+
+
+                {
+                    "name": "pipe2_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 700
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": 60
+                        },
+                        {
+                            "name": "pipe2Collision_end",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": 60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe2_middle_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 760
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe2Collision_middle_bottom",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+                        
+                    ]
+                }
+
+            ]
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "name": "pipe3",
+            "transform": {
+                "position": {
+                    "x": 1600,
+                    "y": 0
+                }
+            },
+            "components": [
+               
+            ],
+            "behaviors":[
+                {
+                    "name": "pipe3Scroller",
+                    "type": "scroll",
+                    "velocity": {
+                        "x": -150,
+                        "y": 0
+                    },
+                    "minPosition": {
+                        "x": -200,
+                        "y": 0
+                    },
+                    "resetPosition": {
+                        "x": 1600,
+                        "y": 0
+                    },
+                    "resetMessage": "GAME_RESET",
+                    "stopMessage": "PLAYER_DIED",
+                    "startMessage": "PLAYER_RESET"
+                }
+            ],
+            
+            "children": [
+                {
+                    "name": "pipe3_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 150
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_top",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": -60
+                        },
+                        {
+                            "name": "pipe3Collision_endneg",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": -60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe3_middle_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -210
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_top",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe3Collision_middle_top",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+
+
+
+                {
+                    "name": "pipe3_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 700
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": 60
+                        },
+                        {
+                            "name": "pipe3Collision_end",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": 60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe3_middle_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 760
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe3Collision_middle_bottom",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+                        
+                    ]
+                }
+
+            ]
+        },
+
+
+
+
+
+
+
+
+        {
+            "name": "pipe4",
+            "transform": {
+                "position": {
+                    "x": 1800,
+                    "y": 0
+                }
+            },
+            "components": [
+               
+            ],
+            "behaviors":[
+                {
+                    "name": "pipe4Scroller",
+                    "type": "scroll",
+                    "velocity": {
+                        "x": -150,
+                        "y": 0
+                    },
+                    "minPosition": {
+                        "x": -200,
+                        "y": 0
+                    },
+                    "resetPosition": {
+                        "x": 1800,
+                        "y": 0
+                    },
+                    "resetMessage": "GAME_RESET",
+                    "stopMessage": "PLAYER_DIED",
+                    "startMessage": "PLAYER_RESET"
+                }
+            ],
+            
+            "children": [
+                {
+                    "name": "pipe4_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 150
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_top",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": -60
+                        },
+                        {
+                            "name": "pipe4Collision_endneg",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": -60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe4_middle_top",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": -210
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_top",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe4Collision_middle_top",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+
+
+
+                {
+                    "name": "pipe4_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 700
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "end_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_head",
+                            "width": 150,
+                            "height": 60
+                        },
+                        {
+                            "name": "pipe4Collision_end",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 150,
+                                "height": 60
+                            }
+                        }
+                    ],
+                    "behaviors":[
+
+                    ]
+                },
+
+
+                {
+                    "name": "pipe4_middle_bottom",
+                    "transform": {
+                        "position": {
+                            "x": 0,
+                            "y": 760
+                        }
+                    },
+                    "components": [
+                        {
+                            "name": "middle_bottom",
+                            "type": "sprite",
+                            "materialName": "pipe_middle",
+                            "width": 150,
+                            "height": 300
+                        },
+                        {
+                            "name": "pipe4Collision_middle_bottom",
+                            "type": "collision",
+                            "shape": {
+                                "type": "rectangle",
+                                "width": 130,
+                                "height": 300
+                            }
+                        }
+                    ],
+                    "behaviors":[
+                        
+                    ]
+                }
+
+            ]
+        },
+
+
+
+
+
+
+
+
+
+        
+       
+       
+
+        {
+            "name": "ground",
+            "transform": {
+                "position": {
+                    "x": 0,
+                    "y": 940
+                }
+
+            },
+            "components": [
+                {
+                    "name": "grass1 ",
+                    "type": "sprite",
+                    "materialName": "grass1",
+                    "width": 1000,
+                    "height": 60
+                },
+                {
+                    "name": "groundCollision",
+                    "type": "collision",
+                    "shape": {
+                        "type": "rectangle",
+                        "width": 1000,
+                        "height": 60
+                    }
+                }
+            ],
+            "behaviors":[
+                {
+                    "name": "groundScroller",
+                    "type": "scroll",
+                    "velocity": {
+                        "x": -150,
+                        "y": 0
+                    },
+                    "minPosition": {
+                        "x": -1000,
+                        "y": 940
+                    },
+                    "resetPosition":{
+                        "x": 1000,
+                        "y": 940
+                    },
+                    "resetMessage": "GAME_RESET",
+                    "stopMessage": "PLAYER_DIED",
+                    "startMessage": "PLAYER_RESET"
+                }
+
+            ]
+ 
+        },
+
+
+
+        {
+            "name": "ground2",
+            "transform": {
+                "position": {
+                    "x": 1000,
+                    "y": 940
+                }
+
+            },
+            "components": [
+                {
+                    "name": "grass1",
+                    "type": "sprite",
+                    "materialName": "grass1",
+                    "width": 1000,
+                    "height": 60
+                },
+                {
+                    "name": "groundCollision",
+                    "type": "collision",
+                    "shape": {
+                        "type": "rectangle",
+                        "width": 1000,
+                        "height": 60
+                    }
+                }
+            ],
+            "behaviors":[
+                {
+                    "name": "groundScroller2",
+                    "type": "scroll",
+                    "velocity": {
+                        "x": -150,
+                        "y": 0
+                    },
+                    "minPosition": {
+                        "x": -1000,
+                        "y": 940
+                    },
+                    "resetPosition":{
+                        "x": 1000,
+                        "y": 940
+                    },
+                    "resetMessage": "GAME_RESET",
+                    "stopMessage": "PLAYER_DIED",
+                    "startMessage": "PLAYER_RESET"
+                }
+
+            ]
+ 
+        },
+
+
+
+
+
+
+
+
+
+        {
+            "name": "bird",
+            "transform": {
+                "position":{
+                    "x": 160,
+                    "y": 360
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            "components": [
+                {
+                    "name": "birdAnimatedSprite",
+                    "materialName": "bird",
+                    "type": "animatedSprite",
+                    "frameWidth": 300,
+                    "frameHeight": 295,
+                    "frameCount": 3,
+                    "frameColumnCount": 2,
+                    "frameSequence": [0,1,2,3,4,5,4,3,2,1],
+                    "origin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+
+                },
+                 {
+                    "name": "birdCollision",
+                    "type": "collision",
+                    "shape": {
+                        "type": "rectangle",
+                        "width": 300,
+                        "height": 295,
+                        "origin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "static": false
+                    
+                }
+            ],
+            "behaviors": [
+                {
+                    "name": "movementBehavior",
+                    "type": "keyboardMovement",
+                    "speed": 7
+                
+                 },
+                 {
+                     "name": "playerController",
+                     "type": "player",
+                     "animatedSpriteName": "birdAnimatedSprite",
+                     "playerCollisionComponent": "birdCollision",
+                     "groundCollisionComponent": "groundCollision"
+                 }
+            ]
+        },
+
+
+        {
+            "name": "testTextObj",
+            "transform": {
+                "position": {
+                    "x": 130,
+                    "y": 70
+                }
+            },
+            "components": [
+                {
+                    "name": "testText",
+                    "type": "bitmapText",
+                    "text": "KOROSH",
+                    "fontName": "default"
+
+                }
+            ]
+        }
+
+
+
+
+
+
+
+    ]
+
+
+
+}
