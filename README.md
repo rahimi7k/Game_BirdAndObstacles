@@ -8,5 +8,6 @@ For a deeper understanding of the graphical design and development process, refe
 
 Url: https://zenodo.org/doi/10.5281/zenodo.13480767
 
+<img width="512px" alt="game" src="https://github.com/rahimi7k/Game_BirdAndObstacles/assets/50842032/54b6cc1b-38d6-4313-b9a9-9f101d9a5325">
 
-<img width="512" alt="game" src="https://github.com/rahimi7k/Game_BirdAndObstacles/assets/50842032/54b6cc1b-38d6-4313-b9a9-9f101d9a5325">
+
